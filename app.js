@@ -43,10 +43,10 @@
                 controller: 'digitaldirectorCtrl'
             })
 
-            .state('asstfashion', {
-                url: '/work/asstfashion',
-                templateUrl: 'views/asstfashion.html',
-                controller: 'asstfashionCtrl'
+            .state('copywriting', {
+                url: '/work/copywriting',
+                templateUrl: 'views/copywriting.html',
+                controller: 'copywritingCtrl'
             })
 
             .state('seo', {
@@ -61,10 +61,10 @@
                 controller: 'cuddlepartyCtrl'
             })
 
-            .state('socialmedia', {
-                url: '/work/socialmedia',
-                templateUrl: 'views/socialmedia.html',
-                controller: 'socialmediaCtrl'
+            .state('working', {
+                url: '/work/working',
+                templateUrl: 'views/working.html',
+                controller: 'workingmediaCtrl'
             })
 
             .state('jerkclips', {
@@ -73,10 +73,10 @@
                 controller: 'jerkclipsCtrl'
             })
 
-            .state('spoonuniversity', {
-                url: '/work/spoonuniversity',
-                templateUrl: 'views/spoonuniversity',
-                controller: 'spoonuniversityCtrl'
+            .state('aso', {
+                url: '/work/aso',
+                templateUrl: 'views/aso',
+                controller: 'asoCtrl'
             })
 
             .state('personalization', {
@@ -133,9 +133,9 @@
         };
     });
 
-    app.controller('asstfashionCtrl', function($scope){
+    app.controller('copywritingCtrl', function($scope){
         $scope.config = {
-            header: 'Asst Fashion Editor'
+            header: 'Copywriting for EPIX'
         };
     });
 
@@ -151,9 +151,9 @@
         };
     });
 
-    app.controller('socialmediaCtrl', function($scope){
+    app.controller('workingCtrl', function($scope){
         $scope.config = {
-            header: 'Social Media Intern'
+            header: 'Web Editor for Working: Syracuse'
         };
     });
 
@@ -163,9 +163,9 @@
         };
     });
 
-    app.controller('spoonuniversityCtrl', function($scope){
+    app.controller('asoCtrl', function($scope){
         $scope.config = {
-            header: 'Writer for Spoon University'
+            header: 'App Store Optimization for EPIX'
         };
     });
 
