@@ -85,10 +85,10 @@
                 controller: 'personalizationCtrl'
             })
 
-            .state('dailyorange', {
-                url: '/work/dailyorange',
-                templateUrl: 'views/dailyorange.html',
-                controller: 'dailyorangeCtrl'
+            .state('shrinefest', {
+                url: '/work/shrinefest',
+                templateUrl: 'views/shrinefest.html',
+                controller: 'shrinefestCtrl'
             })
 
             .state('traceproject', {
@@ -175,9 +175,9 @@
         };
     });
 
-    app.controller('dailyorangeCtrl', function($scope){
+    app.controller('shrinefestCtrl', function($scope){
         $scope.config = {
-            header: 'Writer for The Daily Orange'
+            header: 'Putting Together Shrine Fest 2019'
         };
     });
 
