@@ -79,10 +79,10 @@
                 controller: 'spoonuniversityCtrl'
             })
 
-            .state('thestacker', {
-                url: '/work/thestacker',
-                templateUrl: 'views/thestacker.html',
-                controller: 'thestackerCtrl'
+            .state('personalization', {
+                url: '/work/personalization',
+                templateUrl: 'views/personalization.html',
+                controller: 'personalizationCtrl'
             })
 
             .state('dailyorange', {
@@ -169,9 +169,9 @@
         };
     });
 
-    app.controller('thestackerCtrl', function($scope){
+    app.controller('personalizationCtrl', function($scope){
         $scope.config = {
-            header: 'Writer for The Stacker'
+            header: 'Personalization for EPIX'
         };
     });
 
